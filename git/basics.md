@@ -1,3 +1,6 @@
+### Basic Concepts
+- Git operates locally in three spaces : working directory, staging area and commited snapshots
+
 ### Init a empty dir as local repo
 
 ```
@@ -37,7 +40,10 @@ ls
 git checkout master
 ```
 
+<img src="https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c" style="width:60%;"/>
+
 ### Revert/undo staged but not commited files
+
 ```
 echo blah >> f
 git add -A .
@@ -48,6 +54,7 @@ cat f
 git status
 ```
 
-<img src="https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c" style="width:60%;"/>
-
-
+### Revert a committed snapshot which will create another snapshot
+git log
+git revert <hash>
+git log
