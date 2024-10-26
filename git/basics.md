@@ -36,3 +36,17 @@ ls
 ls
 git checkout master
 ```
+
+### Revert/undo staged but not commited files
+```
+echo blah >> f
+git add -A .
+git status
+git reset --hard
+# change should be gone
+cat f
+git status
+```
+
+![image](https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c)
+
