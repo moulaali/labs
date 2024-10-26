@@ -25,3 +25,14 @@ git status
 # see all local commits
 git log --oneline
 ```
+
+### Time travel in local checkouts
+```
+git log --online
+# pick one of the snapshots
+git checkout <hash>
+ls
+# go back to head
+ls
+git checkout master
+```
