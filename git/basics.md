@@ -48,7 +48,6 @@ cat f
 git status
 ```
 
-<img src="[https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c" style="width:50%;"/>
+<img src="https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c" style="width:50%;"/>
 
-![image](https://github.com/user-attachments/assets/946cecc2-2c72-4aad-8640-e583f0691d6c)
 
