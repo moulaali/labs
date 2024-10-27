@@ -63,8 +63,6 @@ git log
 
 ## Branching
 - Sub branches are called topic branches (for features, hot-fixes...)
-- 
-
 
 ### Merge 
 ```
